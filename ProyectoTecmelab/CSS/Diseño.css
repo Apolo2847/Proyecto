@@ -1,0 +1,566 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  list-style:none;
+  font-family: 'Assistant', sans-serif;
+  font-size: 14px;
+}
+.contenedor1{
+  width: 100%;
+  height: 100%;
+  background-color:
+}
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  border-color: #3d8e33;
+  background: #FFF;
+  color: #5BBF21;
+}
+/*TIpos de letras
+font-family: 'Assistant', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Lemonada', cursive;
+font-family: 'Marck Script', cursive; */
+header{
+  position: relative;
+  margin: 0px auto;
+  width: 75%;
+  height: 90px;
+  background-color: white;
+}
+#logo{
+  position: absolute;
+  top: 10%;
+  width: 30%;
+  height: 90px;
+  background-image: url('/Imagenes/logo.png');
+  background-repeat: no-repeat;
+}
+.redes1{
+  position: absolute;
+  top: 22.5px;
+  right: 150px;
+  width: 5%;
+  height: 45px;
+  background-image: url('/Imagenes/twitter.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30%;
+}
+
+.redes2{
+    position: absolute;
+    top: 22.5px;
+    right: 90px;
+    width: 5%;
+    height: 45px;
+    background-image: url('/Imagenes/Facebook.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30%;
+}
+
+nav{
+  position:relative;
+  margin: 0px;
+  border-bottom: 5px blue solid;
+  border-top: 5px blue solid;
+  width: 100%;
+  height: 35px;
+  background-color: white;
+}
+#menu{
+  position:absolute;
+  top: 0px;
+  left: 20%;
+  margin: 0px 0px;
+  width: 60%;
+  height: 35px;
+  background-color: red;
+}
+.boton{
+  float: left;
+  width: 16.6666667%;
+  margin: 0px;
+  height: 35px;
+  background: white;
+  text-align: center;
+  line-height: 35px;
+  color: black;
+}
+.slider {
+	width: 75%;
+	margin: 30px auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 600%;
+  animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+
+}
+/*Aqui empieza la primera pagina*/
+#quien{
+  position: relative;
+  margin: 40px auto;
+  width: 75%;
+  height: 250px;
+  background-color: white;
+  text-align: center;
+}
+#quien h1{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px;
+}
+#quien p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+}
+#quien h3{
+  font-family: 'Marck Script', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #2684D1;
+}
+.linea{
+  position: relative;
+  bottom: 45px;
+  width: 100%;
+  height: .5px;
+  background-color: black;
+}
+#Ser{
+  position: relative;
+  bottom: 30px;
+  margin: 30px auto;
+  width: 85%;
+  height: 400px;
+}
+#Servicios{
+  float: left;
+  width: 33%;
+  margin: 0px;
+  height: 400px;
+  background: white;
+}
+#Servicios h1{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px;
+}
+#Servicios p{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+.fot h1{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px;
+}
+
+#Equipo{
+  float: left;
+  width: 34%;
+  margin: 0px;
+  height: 400px;
+}
+#lista{
+  float: left;
+  width: 35%;
+  margin: 0px 40px;
+  height: 50%;
+  background-color:;
+}
+#lista li{
+  list-style: circle;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+#lista2{
+  float: left;
+  width: 35%;
+  margin: 0px;
+  height: 50%;
+  background-color:;
+
+}
+#lista2 li{
+  list-style: circle;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+#Equipo h1{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px;
+}
+#Equipo p{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+#Equipo li{
+  text-align: center;
+}
+.bordes {
+  position: absolute;
+  top: 320px;
+  left: 120px;
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  background: skyblue;
+  padding: 13px 30px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+.bordes:hover{
+  background: #E86830;
+}
+.boton:hover,
+.boton ul a li.current{
+  background: skyblue;
+}
+.btn2 {
+  position: absolute;
+  top: 320px;
+  left: 500px;
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  background: skyblue;
+  padding: 13px 30px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn2:hover {
+  background: #E86830;
+}
+.lista{
+  float: left;
+  list-style: georgian;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+}
+#mapa{
+  float: left;
+  margin: 0px ;
+  width: 378px;
+  height: 300px;
+  background-color: white;
+}
+.linea1{
+  position: relative;
+  bottom: 50px;
+  width: 100%;
+  height: .5px;
+  background-color: black;
+}
+#ubi{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px;
+}
+/*Aqui Empieza el diseño de la segunda pagina*/
+.quien{
+  position: relative;
+  margin: 50px auto;
+  width: 60%;
+  height: 300px;
+  background-color: ;
+}
+.somos{
+  float: left;
+  width: 55%;
+  margin: 0px;
+  height: 300px;
+  background: ;
+}
+.somos h1{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+  text-align: left;
+}
+.somos p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-align: left;
+}
+.somos h3{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+.somos2{
+  float: left;
+  width: 45%;
+  margin: 0;
+  height: 300px;
+  background-image: url('/Imagenes/Quienes.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.msionyvision{
+  position: relative;
+  margin: 50px auto;
+  width: 75%;
+  height: 450px;
+  background-image: url('/Imagenes/Mision.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.mision{
+  position: absolute;
+  top: 180px;
+  left: 20px;
+  float: left;
+  width: 28%;
+  margin: 0px 5px;
+  height: 240px;
+}
+.mision h1{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px;
+  text-align:center;
+}
+.mision p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.vision{
+  position: absolute;
+  top: 180px;
+  left: 358px;
+  float: left;
+  width: 28%;
+  margin: 0px 5px;
+  height: 240px;
+}
+.vision h1{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px;
+  text-align:center;
+}
+.vision p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+.valores{
+  position: absolute;
+  top: 180px;
+  left: 692px;
+  float: left;
+  width: 28%;
+  margin: 0px 5px;
+  height: 240px;
+}
+.valores h1{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px;
+  text-align:center;
+}
+.valores ul{
+  list-style: none;
+}
+.valores li{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+/*Aqui es el diseño de la pagina 3 */
+.servicio{
+  position: relative;
+  margin: 0px auto;
+  width: 70%;
+  height: 170px;
+  background-color:#61B4F9;
+}
+.Titulo{
+  position: relative;
+  margin: 0px auto;
+  width: 70%;
+  height: 60px;
+}
+.Titulo h1{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 45px;
+  text-align:center;
+}
+.modelo1{
+  float: left;
+  width: 40%;
+  height: 170px;
+  background-color: #61B4F9;
+}
+.modelo4{
+  float: left;
+  width: 40%;
+  height: 170px;
+  background-color: #61B4F9;
+}
+.modelo3{
+  float: left;
+  width: 40%;
+  height: 170px;
+  background-color: #61B4F9;
+}
+.modelo5{
+  float: left;
+  width: 40%;
+  height: 170px;
+  background-color: #61B4F9;
+}
+.modelo6{
+  float: left;
+  width: 40%;
+  height: 170px;
+  background-color: #61B4F9;
+}
+.modelo2{
+  float: left;
+  margin: 0px;
+  width: 60%;
+  height: 170px;
+  background-color: white;
+}
+.modelo2 h1{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 37px;
+  text-align:center;
+}
+.modelo2 p{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  text-align:center;
+}
+.modelo2 ul{
+  list-style: circle;
+}
+.modelo2 li{
+  text-align:justify;
+}
+/* Aqui va el diseño de la 4 pagina */
+table {
+  margin: 50px auto;
+  width: 75%;
+  height: 80%;
+  line-height:inherit;
+}
+table td{
+  text-align: left;
+  padding: 4%;
+}
+table li{
+  list-style: circle;
+}
+table thead{
+  background-color: skyblue;
+}
+table .fondo{
+  background-color: gray;
+  padding: 0;
+}
+footer{
+  position: relative;
+  margin: 30px auto;
+  width: 75%;
+  height: 90px;
+  background-color: skyblue;
+}
+#copyright{
+  text-align: center;
+  line-height: 90px;
+}
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+
+/* La propiedad focus se presenta cuando el usuario selecciona un input en este caso el resultado será un cambio de color en el borde de los inputs y de los textarea al momento de seleccionarlos */
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: blue;
+}
+.container {
+  margin: auto;
+  max-width: 1000px;
+  overflow: auto;
+  padding: 0 210px;
+}
+.l-heading {
+  font-size: 20px;
+}
+.text-primary {
+  color:blue;
+}
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  background: skyblue;
+  padding: 15px 35px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #E86830;
+}
