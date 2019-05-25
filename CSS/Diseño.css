@@ -564,3 +564,63 @@ footer{
 .btn:hover {
   background: #E86830;
 }
+#navbar  .logo {
+  flotar : ninguno ;
+  text-align : center ;
+}
+
+#navbar  ul , #navbar  ul  li {
+  flotar : ninguno ;
+}
+
+#navbar  ul  li  a {
+  Relleno : 5 px ;
+  borde inferior : #fff  punteado  1 px ;
+}
+
+/ * Showcase * /
+# bienvenido {
+  altura : 100 % ;
+
+}
+
+#welcome  .welcome-content {
+  relleno superior : 70 px ;
+  Fondo de relleno : 30 px ;
+}
+
+/ * Home-Info * /
+
+# home-info  .info-img {
+  pantalla : ninguna ;
+}
+
+# home-info  .info-content {
+  flotar : ninguno ;
+  ancho : 100 % ;
+}
+
+/ * Información Secundaria * /
+
+.box {
+  flotar : ninguno ;
+  ancho : 100 % ;
+}
+
+/ * Acerca de * /
+# about-info  .info-right ,
+# about-info  .info-left {
+  flotar : ninguno ;
+  ancho : 100 % ;
+}
+# about-info  .info-right {
+  margen superior : 30 px ;
+}
+.l-encabezado {
+  text-align : center ;
+}
+
+/ * Contacto * /
+# contact-info  .box {
+  borde inferior : #fff  punteado  1 px
+}
